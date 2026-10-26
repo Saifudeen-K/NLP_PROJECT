@@ -1,0 +1,68 @@
+# -------------------------
+# Python & Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.DS_Store
+
+# -------------------------
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.vs
+.conda
+
+# -------------------------
+# Data & Models
+data/raw/*.zip
+data/raw/*.7z
+data/raw/*.rar
+data/raw/*.tar
+data/raw/*.gz
+data/raw/
+data/raw/*.tsv
+data/processed/
+data/processed/.*csv
+
+# Large model files (use Git LFS if needed)
+model/*.pt
+model/*.bin
+model/tokenizer/
+
+backend/.env
+
+# Hugging Face caches
+~/.cache/
+~/.huggingface/
+
+# -------------------------
+# Logs & Temporary Files
+logs/
+*.log
+*.tmp
+*.swp
+
+# -------------------------
+# VS Code
+.vscode/
+.history/
+
+
+#bert
+results/
+logs/
+*.pt
+*.bin
+*.ckpt
+*.pkl
+*.h5
+*.joblib
+*.safetensors
+data/
+build/
+dist/
